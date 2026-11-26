@@ -10,7 +10,7 @@
         <h1>Planeación del viaje</h1><br>
         <form action="resultados.php" method="POST">
             <label for="destino">Destinos turísticos</label>
-            <select id="destino" name="destino">
+            <select id="destino" name="destino" multiple>
                 <option value="cancun">Cancún</option>
                 <option value="vallarta">Puerto Vallarta</option>
                 <option value="acapulco">Acapulco</option>
@@ -26,6 +26,10 @@
                 <option value="praga">Praga</option>
                 <option value="tokio">Tokio</option>
             </select>
+            
+            <label for="actividad">Actividades turísticas</label>
+            <input type="checkbox" value="buceo" id="buceo">
+            <!-- ya me dio hueva terminar esto, lo hago más tarde -->
         </form>
     </div>
 </body>
